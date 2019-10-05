@@ -12,6 +12,7 @@
 		6E7ED5392348F85200E7B98A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7ED5372348F85200E7B98A /* Main.storyboard */; };
 		6E7ED53B2348F85300E7B98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7ED53A2348F85300E7B98A /* Assets.xcassets */; };
 		6E7ED53E2348F85300E7B98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7ED53C2348F85300E7B98A /* LaunchScreen.storyboard */; };
+		6E7ED5462348FE2500E7B98A /* trumpet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E7ED5452348FE2500E7B98A /* trumpet.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6E7ED53A2348F85300E7B98A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E7ED53D2348F85300E7B98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E7ED53F2348F85300E7B98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7ED5452348FE2500E7B98A /* trumpet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trumpet.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				6E7ED53A2348F85300E7B98A /* Assets.xcassets */,
 				6E7ED53C2348F85300E7B98A /* LaunchScreen.storyboard */,
 				6E7ED53F2348F85300E7B98A /* Info.plist */,
+				6E7ED5452348FE2500E7B98A /* trumpet.mp3 */,
 			);
 			path = "Test App 01";
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			files = (
 				6E7ED53E2348F85300E7B98A /* LaunchScreen.storyboard in Resources */,
 				6E7ED53B2348F85300E7B98A /* Assets.xcassets in Resources */,
+				6E7ED5462348FE2500E7B98A /* trumpet.mp3 in Resources */,
 				6E7ED5392348F85200E7B98A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,8 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28LK7VWCY5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Test App 01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "emrizkiem.dev.Test-App-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,8 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28LK7VWCY5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Test App 01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "emrizkiem.dev.Test-App-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
